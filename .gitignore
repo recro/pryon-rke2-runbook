@@ -1,0 +1,15 @@
+# Environment-specific files — never commit these
+inventory.yml
+*.local.yaml
+*.local.yml
+pryon-key.json
+*.pem
+*.key
+kubeconfig
+kubeconfig-*
+
+# Discovery output files
+discovery-*.txt
+
+# OS
+.DS_Store
